@@ -1,0 +1,400 @@
+body{
+	margin: 0px;
+}
+
+
+header{
+
+	display: inline;
+
+}
+header>div{
+	background:url("../images/wpmanga.jpg") repeat center;
+	padding: 100px;
+}
+header>marquee>{
+	background: white;
+	text-align: center;
+	display: inline;
+}
+nav{
+	size: 20px;
+	background: #BB6464;
+	padding: 10px;
+	box-shadow: 0px 20px 100px 2px #f0e6fa;
+
+	
+
+}
+
+nav>ul>ol{
+	display: inline;
+	border-radius: 10%;
+	padding: 20px;
+	font-size: 30px;
+	border: 2px dotted black;
+
+}
+nav>ul>ol:hover{
+	border-radius: 10%;
+	background-color: #CDB699;
+}
+nav>ul>ol>a{
+	text-decoration: none;
+	color: white;
+}
+nav>ul>ol>a>img{
+	height: 25px;
+	display: inline-block;
+	align-content: center;
+}
+main{
+	margin: 50px 0px 0px 0px;
+	width: 80%;
+	float: left;
+}
+main>div>article{
+	margin: 40px 20px 20px 20px;
+	display: block;
+	box-shadow: 0px 20px 100px 2px #f0e6fa;
+	border-radius: 2%
+}
+main>div>article>section{
+	padding: 20px;
+	display: block;
+	margin: 5px 0px 5px 0px;
+
+	
+}
+main>div>article>section>img{
+
+	float: left;
+	height: 150px;
+}
+main>div>article>section>div{
+	margin:0px 20px 20px 110px;
+	text-align: justify;
+
+}
+
+main>div>article>section>div>button{
+	width: 100px;
+	height: 50px;
+}
+
+aside{
+	margin: 90px 0% 0% 0%;
+	width: 20%;
+	float:right;
+
+}
+aside>section{
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #F0FFC2;
+}
+footer{
+	display: inline-block;
+	margin-top: 50px;
+	display: block;
+	background-color: #BB6464;
+	padding: 5px;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+.clear{
+	clear: both;
+}
+.kanan{
+	width: 100%;
+	display: inline-block;
+	word-wrap: break-word;
+	color: #524A4E;
+}
+.kanan>span>img{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.profilePembuat{
+	padding: 10px;
+	text-align: center;
+	float: none;
+	color: #3E497A;
+}
+.circle{
+	height: 250px;
+	width: 250px;
+	background: url("../profile/neko.jpeg");
+	background-size: 300px 300px;
+	margin-left: -20px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border-radius: 50%;
+	display: inline-block;
+}
+.coolRactangle{
+	height: 300px;
+	width: 200px;
+	background: url("../manga/sankarea/cover.jpg");
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	margin-left: -10px;
+
+	border-radius: 10%;
+	
+}
+.line{
+	background-color: #35858B;
+	width: 80%;
+	height: 10px;
+	border-radius: 50%;
+}
+.sticky{
+	position: -webkit-sticky; /* Safari */
+ 	position: sticky;
+  	top: 0;
+}
+.baca{
+	width: 200px;
+	height:50px;
+	background: white;
+	border-radius: 10%;
+	border: 3px dotted black;
+	display: inline-block;
+	text-align: center;
+}
+
+.baca:hover{
+	width: 200px;
+	height:50px;
+	background: #BB6464;
+	color: white;
+	border-radius: 10%;
+	border: 3px dotted black;
+	display: inline-block;
+	text-align: center;
+}
+
+.chapter{
+	clear: both;
+	display: none;
+}
+
+#rekomendasiTab{
+	padding: 5%;
+	color: #806040
+
+}
+
+#heroinKanan{
+	width: 500px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+
+#panah{
+	position: fixed;
+	top: 20%;
+	z-index: 0;
+	display: none;
+	margin-left: 500px;
+	width: 500px;
+
+}
+
+#mou{
+	background: url("../manga/mou/cover.jpg");
+}
+
+#yuko{
+	background: url("../manga/Yuko/cover.jpg");
+}
+@media screen and (max-width: 1208px){
+	.profilePembuat{
+	padding: 10px;
+	text-align: center;
+	float: none;
+	color: #3E497A;
+	}
+	#heroinKanan{
+	width: 200px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+}
+
+
+
+@media screen and (max-width: 992px){
+	aside{
+	padding: 10%;
+	width: 80%;
+	float:left;
+	margin: 5% 0% 5% 0%;
+
+	}
+	main{
+	margin: 50px 0px 0px 0px;
+	width: 100%;
+	float: left;
+	}
+	.line{
+	background-color: #35858B;
+	width: 50%;
+	height: 10px;
+	border-radius: 50%;
+	}
+
+	.kanan{
+	width: 100%;
+	display: inline-block;
+	word-wrap: break-word;
+	}
+
+	.kanan>span>img{
+	position: fixed;
+	width: 20%
+	bottom: 0px;
+	right: 0%;
+	}
+	#panah{
+	position: fixed;
+	top: 20%;
+	z-index: 0;
+	display: none;
+	right: 0;
+	width: 500px;
+	transform: rotate(90deg);
+	}
+	#heroinKanan{
+	width: 100px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+}
+
+
+@media screen and (max-width: 1400px){
+	.circle{
+	height: 200px;
+	width: 200px;
+	background: url("../profile/neko.jpeg");
+	background-size: 300px 300px;
+	margin:auto;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border-radius: 50%;
+	display: inline-block;
+}
+}
+
+
+
+@media screen and (max-width: 900px){
+	nav>ul>ol{
+	display: inline-block;
+	border-radius: 10%;
+	padding: 10px;
+	font-size: 30px;
+	border: 2px dotted black;
+
+}
+}
+
+@media screen and (max-width: 500px){
+	header{
+
+	display: inline;
+
+	}
+	header>div{
+		background:url("../images/wpmanga.jpg") repeat center;
+		padding: 20px;
+	}
+	header>marquee>{
+		background: white;
+		text-align: center;
+		display: inline-block;
+	}
+	nav{
+	size: 5px;
+	background: #BB6464;
+	padding: 0%;
+	box-shadow: 0px 20px 100px 2px #f0e6fa;
+	
+	}
+	nav>ul>ol{
+	display: inline-block;
+	border-radius: 5%;
+	padding: 5px;
+	font-size: 20px;
+	border: 2px dotted black;
+
+	}
+	nav>ul>ol:hover{
+		border-radius: 10%;
+		background-color: #CDB699;
+	}
+	nav>ul>ol>a{
+		text-decoration: none;
+		color: white;
+	}
+	nav>ul>ol>a>img{
+		height: 25px;
+		display: inline-block;
+		align-content: center;
+	}
+	main>div>article{
+	margin: 40px 20px 20px 20px;
+	display: block;
+	box-shadow: 0px 20px 100px 2px #f0e6fa;
+	border-radius: 2%
+	}
+	main>div>article>section{
+		padding: 10px;
+		display: block;
+		margin: 5px 0px 5px 0px;
+
+		
+	}
+	main>div>article>section>div{
+		display: block;
+		
+	}
+	main>div>article>section>div{
+		margin:0px 20px 20px 0px;
+		clear: both;
+		text-align: justify;
+
+	}
+
+	main>div>article>section>div>button{
+		width: 100px;
+		height: 50px;
+	}
+
+
+	footer{
+	display: inline;
+	margin-top: 20px;
+	display: block;
+	background-color: #BB6464;
+	padding: 5px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	}
+}

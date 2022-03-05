@@ -1,0 +1,13 @@
+font-family : Menetapkan jenis font yang akan diterapkan pada target.
+font-size : Menentukan ukuran pada teks.
+font-weight : Menentukan ketebalan pada teks. 
+font-style : Menetapkan styling yang diterapkan pada teks.
+font-variant : Menentukan teks untuk menggunakan gaya small caps (huruf kapital kecil).
+font : Shortshand dari properti font yang ada.
+
+
+
+font: style weight variant size font-family
+
+
+size & font-family (Wajib)
